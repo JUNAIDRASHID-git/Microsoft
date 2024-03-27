@@ -270,11 +270,14 @@
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    padding-top: 2%;
+    background-color: antiquewhite;
 
     @media (max-width:900px) {
 
         justify-content: start;
-        margin-left: 5%;
+        width: 100%;
+        padding-left: 10%;
 
     }
 
@@ -292,6 +295,7 @@
 
         display: grid;
         grid-template-columns: 1fr;
+        
 
     }
 
@@ -301,7 +305,7 @@
 
 
 .footer-bar {
-
+    background-color: antiquewhite;
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
@@ -313,7 +317,8 @@
     @media (max-width:900px) {
 
         display: block;
-        margin-left: 5%;
+        padding-left: 10%;
+        padding-right: 5%;
         font-size: 8px;
     }
 }
